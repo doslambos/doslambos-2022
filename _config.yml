@@ -13,7 +13,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  #skin: dark
 
   # generate social links in footer
   social_links:
@@ -26,7 +26,7 @@ minima:
     instagram: https://instagram.com/doslambos
     # linkedin: jekyll
     # pinterest: jekyll
-    # youtube: jekyll
+    # youtube: dsbsyt
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
