@@ -1,14 +1,13 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-
-  {%- include custom-head.html -%}
-  
+	<title>{{ site.title }}</title>
+	{% seo %}
+	{% feed_meta %}
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl}}/assets/images/favicon.png">
+	<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
+	<script src="//load.sumome.com/" data-sumo-site-id="8e045cc4c8731a4ed51ce68725604c36d570b7e1cecb2e7b70fe1ff8303b633f" async="async"></script>
 </head>

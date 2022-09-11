@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+	
+	{% include header.html %}
+	
+	 <!-- Main -->
+	 <div id="main" class="alt">
+			
+			<div class="inner main">
+				<header class="major">
+					<h1>{{ page.title }}</h1>
+				</header>
+				{% if page.image %}<div class="image main fit"><img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image-alt }}" /></div>{% endif %}
+					<header class="major">
+						<h3>{{ page.sub-header }}</h3>
+					</header>
+					<p>{{ page.main-content }}</p>
+					<ul class="actions">
+						<li><a href="{{ page.call-to-action-link}}" class="button">{{page.call-to-action-button-text}}</a></li>
+					</ul>
+				</div>
+							
+			</div>
+		</section>
+		
+		{% include more-posts.html %}
+		
+	</div>
+	
+	{% include footer.html %}
+	
+	
+	
+</body>
+
+</html>
