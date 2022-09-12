@@ -17,10 +17,9 @@ published: true
 			<h1>{{ page.landing-title }}</h1>
 		</header>
 		<div class="content">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6o0z72H8zrBcxEostsdxA7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 			<p style="text-transform: uppercase;">{{ site.description }}</p>
 			<ul class="actions">
-				<li><a href="#one" class="button next scrolly">See Our Songs</a></li>
+				<li><a href="#one" class="button next scrolly">See Our Work</a></li>
 			</ul>
 		</div>
 	</div>
