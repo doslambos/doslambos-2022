@@ -7,3 +7,5 @@ source 'https://rubygems.org' do
   gem 'jekyll-feed', group: :jekyll_plugins
   gem 'jemoji', group: :jekyll_plugins
 end
+
+gem "webrick", "~> 1.7"
